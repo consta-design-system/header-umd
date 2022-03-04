@@ -1,0 +1,23 @@
+{
+  "name": "@consta/header-umd",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "*",
+    "!*.html"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/consta-design-system/header-umd.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/consta-design-system/header-umd/issues"
+  },
+  "homepage": "https://github.com/consta-design-system/header-umd#readme"
+}

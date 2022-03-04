@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "esModuleInterop": true,
+    "allowUnusedLabels": true,
+    "experimentalDecorators": true,
+    "declaration": true,
+    "lib": ["dom", "es2015", "esnext"],
+    "module": "commonjs",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "strict": true,
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "target": "es5",
+    "jsx": "react",
+    "moduleResolution": "node"
+  },
+  "include": ["src"],
+  "exclude": ["dist"]
+}
