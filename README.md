@@ -1,27 +1,38 @@
 # [Дизайн-система Consta](http://consta.gazprom-neft.ru/) | header-umd
 
-Уневерсальный модуль компонента `Header`, для проектов не на `ReactJS`
+Универсальный модуль компонента `Header` для проектов не на `ReactJS`. Позволяет подключить шапку к любому веб-проекту и настроить так, как вам нужно.
+
+Всё выглядит и настраивается так же, как в компоненте [Header]((https://header-consta.vercel.app/?path=/docs/components-header--playground)).
+
+> `header-umd` — адаптивный компонент, он подстраивается под ширину экрана и подходит для мобильных устройств
+
 
 # Как использовать
 
 У вас несколько вариантов подключения:
 
-1. использовать npm-пакет
-2. подключение скрипта на страницу
+1. установить и импортировать npm-пакет,
+2. подключить скрипт на страницу.
+
+Вы можете подключить модуль удобным способом и прописать настройки. Все свойства идентичны свойствам компонента `Header` из пакета `@consta/header`.
+
+[Посмотреть документацию и примеры](https://header-consta.vercel.app/?path=/docs/components-header--playground)
 
 ## npm-пакет
 
+Этот вариант подходит, если вы можете включить проект в сборку.
+
 ```sh
 # NPM
-$ npm install @consta/header-stack-free
+$ npm install @consta/header-umd
 
 # Yarn
-$ yarn add @consta/header-stack-free
+$ yarn add @consta/header-umd
 ```
 
 ```ts
-import { constaHeaderInit } from '@consta/header-stack-free';
-import '@consta/header-stack-free/styles.css';
+import { constaHeaderInit } from '@consta/header-umd';
+import '@consta/header-umd/styles.css';
 
 const set = constaHeaderInit(
   {
@@ -37,7 +48,9 @@ const set = constaHeaderInit(
 
 ## Подключение скрипта
 
-последний собранный скрипт и стили находятся в папке `dist` этого репозитория
+Этот вариант подходит, если у вас есть веб-проект, на страницу которого вы можете подключить скрипт.
+
+Пример собранного скрипта и стилей можно посмотреть в папке [`dist`](https://github.com/consta-design-system/header-umd/tree/master/dist) в этом репозитории.
 
 ```html
 <script src="./path/to/index.js"></script>
@@ -57,12 +70,6 @@ const set = constaHeaderInit(
   };
 </script>
 ```
-
-## Документация
-
-Все свойства идентичны свойствам компонента `Header` из пакета `@consta/header`
-
-[Посмотреть документацию и примеры](https://header-consta.vercel.app/?path=/docs/components-header--playground)
 
 ## Разработка
 
