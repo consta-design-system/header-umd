@@ -20,6 +20,8 @@
 
 ## npm-пакет
 
+Этот вариант подходит, если вы можете включить проект в сборку.
+
 ```sh
 # NPM
 $ npm install @consta/header-umd
@@ -44,9 +46,11 @@ const set = constaHeaderInit(
 );
 ```
 
-## Подключение готового скрипта
+## Подключение скрипта
 
-Пример собранного скрипта и стилей можно посмотреть в папке [`dist`](https://github.com/consta-design-system/header-umd/tree/master/dist) в этом репозитории.
+Этот вариант подходит, если у вас есть веб-проект, на страницу которого вы можете подключить скрипт.
+
+Последний собранный скрипт и стили можно скопировать из папки [`dist`](https://github.com/consta-design-system/header-umd/tree/master/dist) в этом репозитории.
 
 ```html
 <script src="./path/to/index.js"></script>
