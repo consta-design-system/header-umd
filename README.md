@@ -2,7 +2,7 @@
 
 Универсальный модуль компонента `Header` для проектов не на `ReactJS`. Позволяет подключить шапку к любому веб-проекту и настроить так, как вам нужно.
 
-Всё выглядит и настраивается так же, как в компоненте [Header]((https://header-consta.vercel.app/?path=/docs/components-header--playground)).
+Всё выглядит и настраивается так же, как в компоненте [Header](http://header.gizeasy.ru/?path=/docs/components-header--playground).
 
 > `header-umd` — адаптивный компонент, он подстраивается под ширину экрана и подходит для мобильных устройств
 
@@ -16,7 +16,7 @@
 
 Вы можете подключить модуль удобным способом и прописать настройки. Все свойства идентичны свойствам компонента `Header` из пакета `@consta/header`.
 
-[Посмотреть документацию и примеры](https://header-consta.vercel.app/?path=/docs/components-header--playground)
+[Посмотреть документацию и примеры](http://header.gizeasy.ru/?path=/docs/components-header--playground)
 
 ## npm-пакет
 
@@ -94,7 +94,7 @@ $ yarn build
 
 ## Контрибьюторам
 
-Будем рады, если вы захотите принять участие в разработке дизайн-системы =) Но сначала прочитайте [инструкцию для контрибьюторов](https://consta-uikit.vercel.app/?path=/docs/common-develop-contributors--page).
+Будем рады, если вы захотите принять участие в разработке дизайн-системы =) Но сначала прочитайте [инструкцию для контрибьюторов](http://charts.gizeasy.ru/?path=/docs/common-develop-contributors--page).
 
 ## Лицензия
 
