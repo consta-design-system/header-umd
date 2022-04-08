@@ -12,6 +12,8 @@ import {
   HeaderDefaultTileMenuItem,
 } from '@consta/header/Header';
 
+import { ThemeTogglerItemDefault } from '@consta/uikit/ThemeToggler';
+
 export type Init = <
   // Menu
   MENU_ITEM = HeaderDefaultMenuItem,
@@ -32,6 +34,7 @@ export type Init = <
   LANGUAGES_ITEM = HeaderDefaultLanguagesItem,
   // AdditionalButtons
   ADDITIONAL_BUTTONS_ITEM = HeaderDefaultAdditionalButtonsItem,
+  THEME_TOGGLER_ITEM = ThemeTogglerItemDefault,
 >(
   props: HeaderProps<
     MENU_ITEM,
@@ -44,7 +47,8 @@ export type Init = <
     SECONDARY_MENU_ITEM,
     SOCIAL_MEDIA_ITEM,
     LANGUAGES_ITEM,
-    ADDITIONAL_BUTTONS_ITEM
+    ADDITIONAL_BUTTONS_ITEM,
+    THEME_TOGGLER_ITEM
   >,
   element: HTMLElement | null,
 ) => (newProps: HeaderProps) => void;

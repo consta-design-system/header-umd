@@ -1,13 +1,13 @@
 {
   "name": "@consta/header-umd",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf dist && yarn build:js && yarn build:types && yarn build:package.json",
     "build:js": "NODE_ENV=production webpack --mode production --config webpack.config.js",
-    "build:types": "NODE_ENV=production tsc --declaration --outDir dist/ --emitDeclarationOnly -p tsconfig.json",
+    "build:types": "NODE_ENV=production tsc --declaration --skipLibCheck --emitDeclarationOnly -p tsconfig.json",
     "build:package.json": "node scripts/prepare-package-json.js",
     "start": "NODE_ENV=development webpack serve --open --progress --mode development"
   },
@@ -43,8 +43,8 @@
     "webpack-bundle-analyzer": "^4.5.0",
     "webpack-cli": "^4.9.2",
     "webpack-dev-server": "^4.7.4",
-    "@consta/header": "^0.3.3",
-    "@consta/uikit": "^3.17.1",
+    "@consta/header": "^0.4.1",
+    "@consta/uikit": "^3.18.3",
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.13",
     "react": "^17.0.2",

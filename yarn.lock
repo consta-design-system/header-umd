@@ -19,19 +19,19 @@
   resolved "https://registry.yarnpkg.com/@bem-react/classnames/-/classnames-1.3.10.tgz#858b3c25574dd3f2046cc1bf89300b9c2a3ff0f2"
   integrity sha512-tn+45Ii+S5FcYuO5FMs9YLSMUc355iUho7mwFeMMihi/ZZCQjvdR5AhVexnL9GS7pMtOeV0OsDOPDkW1sXVI3A==
 
-"@consta/header@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@consta/header/-/header-0.3.3.tgz#1f45807f5b851036a864af4fac808dba4542b53c"
-  integrity sha512-VwlOp3C5KDen4YhYxWlSe294PEBq/MIaQZ+artvV7NRtwiAV+d1CMBcruDxhNGPsZEmCglVtA1yVR5k6NPx+bw==
+"@consta/header@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@consta/header/-/header-0.4.1.tgz#fe0c277c9f8d7323401b7ef0232118f5d6dc1ad7"
+  integrity sha512-WGsSiXE5j5SWynu9sdZDypTw+EH6OmXktBe/OMcWQjtvTyM5bv8VLnSkzpF8un5n8U5yqfrAejaob3n5vYCNpg==
   dependencies:
     "@bem-react/classname" "^1.5.8"
     date-fns "^2.17.0"
     react-transition-group "^4.4.2"
 
-"@consta/uikit@^3.17.1":
-  version "3.17.1"
-  resolved "https://registry.yarnpkg.com/@consta/uikit/-/uikit-3.17.1.tgz#1241e6781a38aa1105c40f2c64cd3330d725a945"
-  integrity sha512-L8XurgCKcd+cSyAcJhZ4X4Ebdj2DwrliZgWg7ENcrz0VDauQKawgNa3Bj34fOVebUApMHvDt1bSBPk4dB+xUDQ==
+"@consta/uikit@^3.18.3":
+  version "3.18.3"
+  resolved "https://registry.yarnpkg.com/@consta/uikit/-/uikit-3.18.3.tgz#603b2dc67f936167d0ef16972bc71e282d33c341"
+  integrity sha512-uGYPvJoK2KJtoqfLB1sqDXG8NiE4z/dV3Sh4/ofszbe7imlAD3YYtvQQ4uNBG7U+eeGDD49WB5FkRquDjfIuZQ==
   dependencies:
     "@bem-react/classname" "^1.5.8"
     "@bem-react/classnames" "^1.3.9"
