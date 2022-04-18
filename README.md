@@ -1,8 +1,8 @@
-# [Дизайн-система Consta](http://consta.gazprom-neft.ru/) | header-umd
+# [Дизайн-система Consta](https://consta.design/) | header-umd
 
 Универсальный модуль компонента `Header` для проектов не на `ReactJS`. Позволяет подключить шапку к любому веб-проекту и настроить так, как вам нужно.
 
-Всё выглядит и настраивается так же, как в компоненте [Header](http://header.gizeasy.ru/?path=/docs/components-header--playground).
+Всё выглядит и настраивается так же, как в компоненте [Header](http://header.consta.design/?path=/docs/components-header--playground).
 
 > `header-umd` — адаптивный компонент, он подстраивается под ширину экрана и подходит для мобильных устройств
 
@@ -15,7 +15,7 @@
 
 Вы можете подключить модуль удобным способом и прописать настройки. Все свойства идентичны свойствам компонента `Header` из пакета `@consta/header`.
 
-[Посмотреть документацию и примеры](http://header.gizeasy.ru/?path=/docs/components-header--playground)
+[Посмотреть документацию и примеры](http://header.consta.design/?path=/docs/components-header--playground)
 
 ## npm-пакет
 
@@ -93,8 +93,8 @@ $ yarn build
 
 ## Контрибьюторам
 
-Будем рады, если вы захотите принять участие в разработке дизайн-системы =) Но сначала прочитайте [инструкцию для контрибьюторов](http://charts.gizeasy.ru/?path=/docs/common-develop-contributors--page).
+Будем рады, если вы захотите принять участие в разработке дизайн-системы =) Но сначала прочитайте [инструкцию для контрибьюторов](http://charts.consta.design/?path=/docs/common-develop-contributors--page).
 
 ## Лицензия
 
-Дизайн-систему можно использовать бесплатно, она распространяется ПАО «Газпром нефть» на условиях открытой [лицензии MIT](https://consta.gazprom-neft.ru/static/licence_mit.pdf).
+Дизайн-систему можно использовать бесплатно, она распространяется ПАО «Газпром нефть» на условиях открытой [лицензии MIT](https://consta.design/static/licence_mit.pdf).
